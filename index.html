@@ -8,8 +8,34 @@
   <style>
     /* Logo styling */
     .logo img {
-      max-width: 50px;  
-      height: 50;      
+      max-width: 50px;  /* Resize logo to 50px */
+      height: auto;     /* Maintain aspect ratio */
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #003366; /* Dark blue background */
+      color: white;              /* White text color */
+      text-align: center;        /* Center the footer text */
+      padding: 20px;             /* Padding to give some space around the footer text */
+    }
+
+    /* Button styling */
+    button {
+      padding: 10px 20px;       /* Add padding around the text */
+      font-size: 14px;          /* Adjust font size to make sure the text fits */
+      white-space: nowrap;      /* Prevent the text from breaking into multiple lines */
+      text-align: center;       /* Center the text inside the button */
+      background-color: #007BFF; /* Blue background color for the button */
+      color: white;             /* White text */
+      border: none;             /* Remove borders */
+      border-radius: 5px;       /* Rounded corners for the button */
+      cursor: pointer;         /* Change cursor on hover */
+    }
+
+    /* Button hover effect */
+    button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
     }
   </style>
 </head>
@@ -24,16 +50,18 @@
       <a href="#">22831</a>
     </nav>
   </header>
+  
   <section class="hero">
     <div class="hero-content">
       <h1>DOGS LOVER</h1>
-      <p> I'M so happy to share with you this experience I have with dogs.</p>
+      <p> I’m so happy to share with you this experience I have with dogs.</p>
       <button>Sign up</button>
     </div>
     <div class="hero-image">
       <img src="IMG-20200713-WA0030.jpg" alt="Hero Image" />
     </div>
   </section>
+
   <section class="info">
     <h2>Some random information.</h2>
     <div class="boxes">
