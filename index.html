@@ -8,8 +8,37 @@
   <style>
     /* Logo styling */
     .logo img {
-      max-width: 200px;  /* Set a max width for the logo to fit well in the header */
-      height: auto;      /* Maintain aspect ratio */
+      max-width: 200px; /* Set a max width for the logo */
+      height: auto;     /* Maintain aspect ratio */
+      display: block;   /* Removes extra space below the image */
+      margin: 0 auto;   /* Centers the logo horizontally */
+    }
+
+    /* Optional: Styling for the header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    /* Optional: Styling for navigation links */
+    nav a {
+      margin: 0 15px; /* Add space between navigation items */
+      text-decoration: none;
+      color: #333; /* Set a dark color for the links */
+    }
+
+    nav a:hover {
+      color: #007BFF; /* Hover effect for links */
+    }
+
+    /* Other general styling */
+    footer {
+      background-color: #003366; /* Dark blue background for footer */
+      color: white;              /* White text color */
+      text-align: center;        /* Center the footer text */
+      padding: 20px;             /* Add padding to the footer */
     }
   </style>
 </head>
@@ -17,7 +46,7 @@
   <header>
     <div class="logo">
       <!-- Replace this text with your logo image -->
-      <img src="paw logo.jpeg" alt="Pawpals Logo" />
+      <img src="paw-logo.jpeg" alt="Pawpals Logo" />
     </div>
     <nav>
       <a href="#">Mfuranzima</a>
@@ -25,6 +54,7 @@
       <a href="#">22831</a>
     </nav>
   </header>
+  
   <section class="hero">
     <div class="hero-content">
       <h1>DOGS LOVER</h1>
@@ -35,6 +65,7 @@
       <img src="IMG-20200713-WA0030.jpg" alt="Hero Image" />
     </div>
   </section>
+
   <section class="info">
     <h2>Some random information.</h2>
     <div class="boxes">
